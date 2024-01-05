@@ -4,7 +4,6 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  
   //usestate gives 2 values in array format------let counter
    const [counter , setCounter] = useState(0)
 
@@ -19,7 +18,7 @@ function App() {
  }
   return (
     <>
-      <h1> stress Less </h1>
+      <h1 style={{backgroundColor:"red"}}> stress Less </h1>
       <h3>Counter value {counter}</h3>
 
       <button
